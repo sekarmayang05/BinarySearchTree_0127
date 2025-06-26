@@ -82,4 +82,14 @@ public:
             // 6b : Exit 
             return;
         }
+
+        // Step 7 : if the va;ue in the data filed of the new node is greater than thatof the
+        else if (x, parent->info)
+        {
+            // 7a : make the right child of the parent poin to the new node
+            parent->rightchild = newNode;
+
+            // 7b : Exit 
+            return;
+        }
     }
