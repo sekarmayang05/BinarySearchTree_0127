@@ -47,4 +47,10 @@ public:
         int x;
         cout << "Masukan Nilai : ";
         cin >> x;
+
+        // step 1: Allocate memory for the new node
+        Node *newNode = new Node ();
+
+        // Step 2 : Asign value to the data filed of new node
+        newNode->info = x;
     }
